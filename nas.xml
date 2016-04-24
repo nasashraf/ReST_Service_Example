@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:order xmlns:ns2="http://schemas.restbucks.com" xmlns:ns3="http://schemas.restbucks.com/dap">
+    <ns3:link rel="http://relations.restbucks.com/cancel" uri="http://restbucks.com/order/1360ce34-74ea-4c79-aea3-a274fac79ad9" mediaType="application/vnd.restbucks+xml"/>
+    <ns3:link rel="http://relations.restbucks.com/payment" uri="http://restbucks.com/payment/1360ce34-74ea-4c79-aea3-a274fac79ad9" mediaType="application/vnd.restbucks+xml"/>
+    <ns3:link rel="http://relations.restbucks.com/update" uri="http://restbucks.com/order/1360ce34-74ea-4c79-aea3-a274fac79ad9" mediaType="application/vnd.restbucks+xml"/>
+    <ns3:link rel="self" uri="http://restbucks.com/order/1360ce34-74ea-4c79-aea3-a274fac79ad9" mediaType="application/vnd.restbucks+xml"/>
+
+    <ns2:item>
+        <ns2:milk>whole</ns2:milk>
+        <ns2:size>small</ns2:size>
+        <ns2:drink>latte</ns2:drink>
+    </ns2:item>
+    <ns2:location>takeaway</ns2:location>
+    <ns2:cost>2.0</ns2:cost>
+    <ns2:status>unpaid</ns2:status>
+</ns2:order>
